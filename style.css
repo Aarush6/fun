@@ -1,0 +1,16 @@
+h3{
+    font-size:25px !important;
+
+}
+.btn-success:hover{
+    background-color: aqua;
+}
+canvas{
+    animation-name: colorchangerinator;
+    animation-duration: 6s;
+animation-iteration-count: infinite;
+}
+@keyframes colorchangerinator {
+    from{box-shadow: 6px -6px 34px white;}
+    to{box-shadow: 6px 6px 34px black;}
+}
